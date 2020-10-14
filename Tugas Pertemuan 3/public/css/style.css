@@ -1,0 +1,115 @@
+
+body 
+{
+    background-image: url('../img/lisacantik.jpg');
+    background-attachment: fixed;
+    font-family: Comic Sans MS, Arial, Times New Roman;
+    line-height: 25px;
+}
+
+header
+{
+    height: 58px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom:aqua;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.navigation-list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigation-list a:hover
+{
+    text-decoration: underline;
+}
+
+.navigation-list 
+{
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+.item-list
+{
+    text-decoration: none;
+}
+
+section, .container{
+    margin: 100px 200px;
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+    
+}
+
+section h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+article{
+    border-bottom: 1px solid black;
+}
+
+article p{
+    text-align: justify;
+    text-indent: 50px;
+    
+}
+
+article .image-container{
+    text-align: center;
+}
+
+.image-container img{
+    width: 50%;
+    height: 100;
+}
+
+footer{
+    padding-top: 1px;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h5{
+    color: white;
+}
+
+/* about */
+.profile img{
+    margin-right: 20px;
+    float: left;
+    border-width: 1;
+    border-color: black;
+    border-style: solid;
+}
+
+.description h5{
+    clear: both;
+}
+
+.findme-list{
+    text-transform: capitalize;
+}
+
+.description p{
+    text-align: justify;
+}
+
+.findme-list a:hover{
+    color: red;
+    font-weight: bold;
+}
