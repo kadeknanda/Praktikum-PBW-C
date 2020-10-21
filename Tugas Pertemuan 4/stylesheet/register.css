@@ -1,0 +1,43 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Bebas";
+    color: #000000;
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  body {
+    text-align: center;
+    margin: 0;
+    font-family: "Bebas";
+    background-color: #000000;
+  }
+  
+  main {
+    padding: 50px 500px;
+    margin-top: auto;
+  }
+
+  .content {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: auto;
+    background-color: whitesmoke;
+  }
+    
+    main {
+      padding: auto;
+      margin-top: auto;
+    }
+  }

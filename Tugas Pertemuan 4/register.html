@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Tugas Pertemuan 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet/register.css">
+        <main>
+            <div id="formulir" class="content">
+                <h1>Formulir Pendataan Mahasiswa</h1>
+                <div>
+                    <form action="login.html" autocomplete="off">
+
+                        <label for="name">Nama :</label> <br>
+                        <input type="text" id="name" name="fname" placeholder="Nama Lengkap" size="50"> <br> <br>
+                        
+                        <label for="nim">NIM :</label> <br>
+                        <input type="text" id="nim" name="fnim" placeholder="NIM" size="50"> <br> <br>
+
+                        <label for="username">Username :</label> <br>
+                        <input type="text" id="username" name="username" placeholder="Username (Maksimal 8 karakter)" maxlength="6" size="50"> <br> <br>
+
+                        <label for="email">Email :</label> <br>
+                        <input type="text" id="email" name="email" placeholder="Email" size="50"> <br> <br>
+
+                        <label for="pwd">Password :</label> <br>
+                        <input type="password" id="pwd" name="pwd" placeholder="Password (Terdiri dari 8 - 12 karakter)" maxlength="12" size="50"> <br> <br>
+
+                        <label for="gender">Jenis Kelamin :</label> <br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Laki-laki</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Perempuan</label>
+                        <input type="radio" id="lainnya" name="gender" value="lainnya">
+                        <label for="othergen">Lainnya</label> <br> <br>
+
+                        <label for="path">Jam Perkuliahan :</label> <br>
+                        <select name="path" id="path">
+                            <option value="reguler">Reguler</option>
+                            <option value="ekstensi">Ekstensi</option>
+                        </select>
+                        <br><br>
+ 
+                        <label for="tinggi">Tinggi Badan (dalam cm):</label>
+                        <input type="number" id="tinggi" name="tinggi" min="1" max="200">
+                        <br> <br>
+
+                        <label for="berat">Berat Badan (dalam kg):</label>
+                        <input type="number" id="berat" name="berat" min="1" max="100">
+                        <br> <br>
+
+                        <label for="matkul">Mata Kuliah :</label><br>
+                        <input type="checkbox" id="sisdig" name="matkul" value="Sistem Digital">
+                        <label for="sisdig">Sistem Digital</label><br>
+                        <input type="checkbox" id="sisdig" name="matkul" value="Algoritma dan Pemrograman">
+                        <label for="alpro">Algoritma dan Pemrograman</label><br>
+                        <input type="checkbox" id="pbw" name="matkul" value="Pemrograman Berbasis Web">
+                        <label for="pbw">Pemrograman Berbasis Web</label><br>
+                        <input type="checkbox" id="kdjk" name="matkul" value="Komunikasi dan Jaringan Komputer">
+                        <label for="kdjk">Komunikasi Data dan Jaringan Komoputer</label><br>
+                        <input type="checkbox" id="strukdat" name="matkul" value="Struktur Data">
+                        <label for="strukdat">Struktur Data</label><br>
+                        <input type="checkbox" id="tbo" name="matkul" value="Teori Bahasa dan Otomata">
+                        <label for="tbo">Teori Bahasa dan Otomata</label><br>
+                        <br>
+ 
+                        <label for="krm ">Bukti KRM:</label> <br>
+                        <input type="file" id="krm" name="krm" ><br><br>
+
+                        <label for="ktm">Bukti KTM:</label> <br>
+                        <input type="file" id="ktm" name="ktm"><br><br>
+
+                        <label for="note">Saran dan Kritik (untuk Prodi) :</label><br><br>
+                        <textarea name="note" id="note" cols="50" rows="15" placeholder="Tuliskan saran dan kritikmu"></textarea>
+                        <br><br>
+
+                        <input type="submit" value="Register">
+                        <input type="reset" value="Reset">
+                    </form>            
+                </div>
+            </div>
+        </main>
+
+    </body>
+</html>
